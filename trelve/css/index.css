@@ -1,0 +1,312 @@
+/*trip-banner 部分start*/
+.trip-banner-l {
+    width: 682px;
+    height: 296px;
+    border: 2px solid #E3E6EA;
+    float: left;
+    position: relative;
+}
+.tr-banner-hd {
+    float: left;
+    width: 89px;
+    height: 296px;
+    background: #4e5662;
+    font-family: "Microsoft YaHei";
+}
+.tr-banner-hd li {
+    position: relative;
+    height: 41px;
+    line-height: 41px;
+    font-size: 14px;
+    border-bottom: #484f5b 1px solid;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.tr-banner-hd li a {
+    color: #fff;
+}
+.tb-nav .blue {
+    background-color: #fff;
+    color: #3EA3FF;
+}
+
+.tb-nav li span {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -4px;
+    right: 0;
+
+}
+.search-nav {
+    height: 42px;
+    border-bottom: 1px solid #e3e6ea;
+    line-height: 42px;
+
+}
+.search-nav ul {
+    padding: 14px 0 0 25px;
+}
+.search-nav ul li {
+    float: left;
+    line-height: 14px;
+    color: #5f727f;
+    border-right: 1px solid #dcdde0;
+    cursor: pointer;
+}
+.search-nav li span {
+    padding: 0 6px;
+    margin: 0 5px;
+    position: relative;
+    font: 14px microsoft yahei ;
+}
+.search-nav  li span.hot {
+    background: url(../images/hot.png) no-repeat;
+    width: 9px;
+    height: 9px;
+    right: -25px;
+    top: -9px;
+    position: absolute;
+}
+.search-content {
+    float: left;
+    width: 568px;
+    height: 146px;
+    padding-top: 10px;
+}
+.search-field {
+    float: left;
+    color: #4e5662;
+    margin-bottom: 5px;
+}
+.tricon-change {
+    display: block;
+    width: 25px;
+    height: 65px;
+    position: absolute;
+    top: 112px;
+    left: 359px;
+    background: url(../images/tr-change.png) no-repeat;
+}
+.search-field-left {
+    margin-right: 28px;
+}
+.search-field-input{
+    margin-left: 25px;
+}
+.search-inputarea {
+    margin-left: 25px;
+}
+
+.search-field .search-tit {
+    line-height: 22px;
+    padding-bottom: 2px;
+    margin-left: 25px;
+}
+.bac-mate {
+    color: #CCCCCC;
+}
+.pi-input {
+    width: 235px;
+    font-size: 14px;
+    color: #4e5662;
+    font-family: "Microsoft YaHei";
+    border: 1px solid #c7d1e4;
+    border-radius: 3px;
+    line-height: 20px;
+    height: 20px;
+    padding: 4px;
+}
+.search-decoration span {
+    float: right;
+    width: 160px;
+    height: 32px;
+    margin-top: 8px;
+}
+.pi-btn {
+    font-size: 16px;
+    width: 160px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: "Microsoft YaHei";
+    color: #fdfdfe;
+    background-color: #63B8F0;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 #34a3ec;
+    cursor: pointer;
+}
+.pi-btn:hover {
+    background-color: #34a3ec;
+}
+.safeguard {
+    position: absolute;
+    /*left: 0;*/
+    bottom: 0;
+    float: left;
+    height: 33px;
+    background: #f0f0f0;
+    border-top: 1px solid #e7eaec;
+    width: 593px;
+    font-family: "Microsoft YaHei";
+}
+.safeguard-in {
+    padding: 8px 0 0 12px;
+}
+.safeguard span {
+
+    float: left;
+    border-right: 1px solid #d8d8d8;
+    padding: 1px 5px 0;
+    text-shadow: 1px 1px 0 #fff;
+    line-height: 14px;
+}
+.safeguard-in .icon1 {
+    float: left;
+    background: url(../images/safe.png) no-repeat;
+    overflow: hidden;
+    width: 16px;
+    height: 18px;
+}
+.J_Radio a {
+    float: right;
+    margin-right: 22px;
+}
+.J_Radio {
+    padding-top: 8px;
+}
+.trip-banner {
+    /*height: 302px;*/
+}
+.trip-banner-r {
+    height: 300px;
+    background-color: pink;
+    float: right;
+    overflow: hidden;
+
+}
+.trip-banner-items {
+    position: relative;
+
+    width: 490px;
+    /*display: inline;*/
+}
+.trip-banner-items ul {
+    height: 300px;
+    width: 2940px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.trip-banner-items ul li{
+    float: left;
+}
+
+.trip-banner-wrap{
+    height: 15px;
+    /*width: 120px;*/
+    position: absolute;
+    bottom: -272px;
+    left: 50%;
+}
+.trip-banner-wrap li {
+    background: #5c5c5c;
+    width: 18px;
+    height: 18px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    margin: 0 5px;
+}
+.trip-banner-wrap li.current {
+    background: #ffae3f;
+}
+/*trip-banner 部分end*/
+/*trip-ticket 部分start*/
+.my-traval{
+    height: 40px;
+    color: #355976;
+    border-bottom: 2px solid #3EA3FF;
+    position: relative;
+}
+.my-traval>span{
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.my-traval-place img {
+    width: 188px;
+    height: 200px;
+    margin-left: 5px;
+}
+.my-traval-list{
+    height: 524px;
+}
+.my-traval-list>ul,.my-traval-place-more>ol{
+    margin: 10px 20px  ;
+    text-align: center;
+    font-size: 16px;
+    font-family: "simsun";
+    cursor: pointer;
+}
+.my-traval-list>ul li{
+    width: 108px;
+    height: 28px;
+    border: 1px solid #3EA3FF;
+    margin-left: -1px;
+    float: left;
+    line-height: 28px;
+}
+.my-traval-place-more>ol li{
+    margin-top: 10px;
+    width: 98px;
+    height: 28px;
+    float: left;
+    line-height: 28px;
+    font: 14px/28px microsoft yahei;
+    cursor: pointer;
+    /*color: #3EA3FF;*/
+
+}
+.my-traval-list-current{
+    background-color: #44A5FC;
+    color: white;
+}
+.my-traval-place>a{
+
+}
+.my-traval-place{
+    width: 600px ;
+    height: 412px;
+
+}
+/*.my-traval-last{*/
+    /*height: 524px;*/
+/*}*/
+.my-traval-place-more{
+    width: 199px;
+    height: 428px;
+    background-color: white;
+    position: relative;
+}
+.my-traval-place-more ol{
+    width: 300px;
+    position: absolute;
+    top: -54px;
+    right: -128px;
+    cursor: pointer;
+
+}
+.my-traval-place-more ul li{
+    padding: 4px 0;
+    display: block;
+    width: 186px;
+    cursor: pointer;
+    margin-left: 14px;
+
+    /*height: 70px;*/
+    /*border: 1px solid #000;*/
+}
+/*trip-ticket 部分end*/

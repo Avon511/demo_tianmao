@@ -1,0 +1,373 @@
+    @charset "UTF-8";
+    /*css 初始化 */
+    html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+        margin: 0;
+        padding: 0;
+    }
+
+    fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+        border: none;
+        padding: 0;
+        margin: 0;
+        outline-style: none;
+    }
+
+    ul, ol {
+        list-style: none;				/*清除列表风格*/
+    }
+
+    input {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-family: "SimSun", "宋体";
+    }
+
+    select, input {
+        vertical-align: middle;
+    }
+
+    select, input, textarea {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    /*防止多行文本框拖动*/
+    img {
+        border: 0;
+        vertical-align: middle;
+    }
+
+    /*  去掉图片低测默认的3像素空白缝隙*/
+    table {
+        border-collapse: collapse;			/*合并外边线*/
+    }
+
+
+    body {
+        font: 12px/150% Arial, Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/
+        color: #666;
+        background: #fff
+    }
+
+    .clearfix:before, .clearfix:after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix:after {
+        clear: both;
+    }
+
+    .clearfix {
+        *zoom: 1; /*IE/7/6*/
+    }
+
+    a {
+        color: #666;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #C81623;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 100%;
+    }
+
+    s, i, em {
+        font-style: normal;
+        text-decoration: none;
+    }
+
+    .col-red {
+        color: #C50300 !important;
+    }
+
+    /*公共类*/
+    .w {
+        /*版心 提取 */
+        width: 1190px;
+        margin: 0 auto;
+    }
+
+    .fl {
+        float: left
+    }
+
+    .fr {
+        float: right
+    }
+
+    .al {
+        text-align: left
+    }
+
+    .ac {
+        text-align: center
+    }
+
+    .ar {
+        text-align: right
+    }
+
+    .hide {
+        display: none
+    }
+
+    /*导航栏部分  start*/
+    .site-nav {
+        height: 26px;
+        line-height: 26px;
+        background-color: #F2F2F2;
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    .site-nav-w {
+        width: 990px;
+        margin: 0 179.5px;
+    }
+
+    .nav-info {
+        height: 26px;
+        line-height: 26px;
+        float: left;
+        font: 200 12px/26px "simsun";
+        color: #999999;
+    }
+
+    .nav-info span{
+        padding: 0 10px;
+        float: left;
+    }
+
+    .nav-info .tmall-home {
+        display: inline-block;
+        height: 16px;
+        background: url("../images/tmall-home.png") no-repeat 0 6px;
+    }
+
+    .nav-info a,
+    .nav-menu a{
+        color: #999999;
+    }
+
+    .nav-info a:hover{
+        color: #C81623;
+    }
+
+    .nav-menu a:hover{
+        color: #C81623;
+    }
+
+    .nav-pic .nav-pic-focus{
+        display: inline-block;
+        width: 13px;
+        height: 16px;
+        background: url("../images/focus-brand.png") no-repeat 0 6px;
+    }
+
+    .nav-pic .shopping-car {
+        display: inline-block;
+        width: 15px;
+        height: 18px;
+        background: url("../images/shopping-car.png") no-repeat 0 6px;
+    }
+
+    .nav-pic .site-menu{
+        display: inline-block;
+        width: 15px;
+        height: 18px;
+        background: url("../images/site-menu.png") no-repeat 0 7px;
+    }
+
+    .nav-menu ul {
+        float: left;
+    }
+
+    .nav-menu ul li{
+        padding: 0 10px;
+        float: left;
+        position: relative;
+    }
+
+    .nav-menu .nav-pic {
+        padding: 0 10px 0 15px;
+    }
+
+    .nav-menu i{
+        height: 7px;
+        width: 10px;
+        position: absolute;
+        top: 12px;
+        right: -4px;
+        font: 400 15px/15px "宋体";
+        overflow: hidden;
+    }
+
+    .nav-menu i s{
+        position: absolute;
+        top: -8px;
+        right: -3px;
+    }
+
+    /*导航栏部分  end*/
+
+
+    /*底部导航栏部分  start*/
+    /*footer部分start*/
+    .footer-service {
+        margin-bottom: 20px;
+    }
+
+    .footer-service-slogans {
+        height: 54px;
+        padding: 50px 0;
+        position: relative;
+
+    }
+
+    .slogan {
+        position: absolute;
+        left: 50%;
+        width: 300px;
+        height: 54px;
+    }
+
+    .slogan1 {
+        margin-left: -604px;
+    }
+
+    .slogan2 {
+        margin-left: -302px;
+    }
+
+    .slogan4 {
+        margin-left: 302px;
+    }
+
+    .footer-service-shopping {
+        border-top: 1px solid #999999;
+        position: relative;
+    }
+
+    .footer-service-shopping .cat-tmall{
+        position: absolute;
+        top: 174px;
+        left: 40px;
+    }
+
+    .footer-service-shopping dl {
+        margin-top: 25px;
+        padding-left: 70px;
+        float: left;
+        width: 160px;
+    }
+
+    .footer-service-shopping .last-dl {
+        width: 100px;
+    }
+
+    .footer-service-shopping dl dt,
+    .coverage h1 {
+        height: 25px;
+        line-height: 25px;
+        font: 600 16px/35px "microsoft yahei";
+        color: #646479;
+    }
+
+    .footer-service-shopping dl dd {
+        height: 20px;
+        line-height: 20px;
+        color: #646479;
+        font: 400 12px/35px "microsoft yahei";
+        cursor: pointer;
+    }
+
+    .footer-service-shopping dl img {
+        margin-top: 10px;
+
+    }
+
+    .footer-service-shopping .last-dl {
+        width: 100px;
+    }
+
+    .footer-service-shopping dl dt,
+    .coverage h1 {
+        height: 35px;
+        line-height: 35px;
+        font: 400 16px/35px "microsoft yahei";
+    }
+
+    .footer-service-shopping dl dd {
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .coverage {
+        float: right;
+        width: 185px;
+        height: 170px;
+        padding-left: 15px;
+        /*background: url(../right-images/china.png) no-repeat left bottom;*/
+        margin-right: 40px;
+    }
+
+    .coverage p {
+        margin-top: 8px;
+    }
+
+    .coverage a {
+        float: right;
+    }
+
+    .footer-others {
+        border-top: 2px solid red;
+        padding: 20px 0 30px 0;
+        background-color: #000000;
+    }
+
+    .footer-others-links {
+        margin-left: 73px;
+    }
+
+    .footer-others-links a {
+        margin: 0 10px;
+        color: white;
+    }
+
+    .footer-others-copyright {
+        margin: 10px 80px;
+        color: white;
+
+    }
+
+    .footer-others-copyright a {
+        margin: 0 3px;
+        color: white;
+        line-height: 30px;
+    }
+
+    .footer-others-copyright span {
+        padding-right: 50px;
+    }
+
+    .footer-others-copyright p {
+        color: #A4A4A4;
+    }
+
+    .footer-others-img  {
+        padding-left: 70px;
+    }
+    .footer-others-img img{
+        margin-left: 10px;
+    }
+    /*脚部*/
+    /*底部导航栏部分  end*/

@@ -1,0 +1,689 @@
+/*body{*/
+    /*background-color: #F5F5F5;*/
+/*}*/
+
+/*tmgj-main start*/
+
+.tmgj-main {
+    /*width: 100%;*/
+    height: 420px;
+    /*background-color: #E2E2E2;*/
+    /*margin-left: -2px;*/
+}
+.tmgj-main-spfl-one {
+    width: 205px;
+    height: 420px;
+    background-color: #333333;
+    margin-left: 80px;
+    position: relative;
+    z-index: 5;
+
+
+}
+
+.mzgh{
+    width: 150px;
+    height: 83px;
+    border-bottom: 1px dotted gray;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.cont1{
+    position: absolute;
+    top: -3px;
+    left: 205px;
+    display: none;
+    z-index: 2;
+}
+.cont2{
+    position: absolute;
+    top: -3px;
+    left: 205px;
+    display: none;
+    z-index: 2;
+}
+
+.cont3{
+    position: absolute;
+    top: -3px;
+    left: 205px;
+    display: none;
+    z-index: 2;
+}
+.cont4{
+    position: absolute;
+    top: -3px;
+    left: 205px;
+    display: none;
+    z-index: 2;
+}
+
+.cont5{
+    position: absolute;
+    top: -3px;
+    left: 205px;
+    display: none;
+    z-index: 2;
+}
+.mzgh h1 {
+    font: 800 18px "microsoft yahei";
+    color: white;
+    padding-top: 10px;
+
+}
+
+.one1{
+    margin-top: -8px;
+}
+.mzgh p {
+    font: 400 14px "microsoft yahei";
+    color: white;
+    margin-top: 15px;
+}
+
+.main-m {
+    width: 750px;
+    height: 420px;
+    margin-left: -2px;
+    margin-top: -420px;
+    position: relative;
+    z-index: 1;
+}
+.slide-right-list{
+    height: 100%;
+    width: 43px;
+    position: fixed;
+    right: 0;
+    background-color: black;
+    float: left ;
+    /*overflow: hidden;*/
+    padding-top: 35px;
+    z-index: 9999;
+}
+.slide-right-list li{
+    padding-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+.slide-right-hide{
+    width: 101px;
+    height: 35px;
+    background-color: #484f5b;
+    position: absolute;
+    left: -146px;
+    top: 8px;
+    color: white;
+    line-height: 35px;
+    text-align: center  ;
+    display: none   ;
+}
+.slide-right-hide i{
+    color: #484f5b;
+    position: absolute;
+    right: -7px;
+    top: 0px;
+}
+.circle {
+
+    position: absolute;
+    top: 700px;
+    left: 45%;
+    z-index: 2;
+
+}
+
+.circle ul li {
+    background: darkgreen  scroll 0% 0%;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin: 6px;
+    float: left;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+    position: relative;
+}
+.main-r {
+    width: 240px;
+    height: 420px;
+    float: right;
+    background-color: #FFFFFF;
+    margin-top: -420px;
+    margin-right: -46px;
+    position: relative;
+    z-index: 5;
+}
+.word {
+    height: 123px;
+    text-align: center;
+    margin-top: 25px;
+    color: #9141E9;
+}
+
+.word h1  {
+    font: 600 18px "microsoft yahei";
+    padding-top: 5px;
+}
+
+.word-pic{
+    margin-top: -32px;
+    margin-left: 18px;
+}
+
+
+.main-r-wordDown {
+    padding-top: 15px;
+    margin-left: 20px;
+}
+.main-r-wordDown  h1 {
+    font: 600 14px "microsoft yahei";
+    color: #333333;
+}
+
+.main-r-wordDown p {
+    color: gray;
+}
+/*main部分end*/
+
+/*shanShopping start*/
+img {
+    cursor: pointer;
+}
+.div {
+    background-color: #F5F5F5;
+}
+.shanbanner {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #F5F5F5;
+    line-height: 80px;
+    margin-top: -40px;
+
+}
+
+.threes {
+    margin-top: 40px;
+}
+
+span{
+    font: 400 14px "microsoft yahei";
+}
+.big {
+    font: 600 18px "microsoft yahei";
+}
+
+
+.my-internet-cell{
+    width: 290px;
+    height: 415px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 5px 6px;
+
+}
+.my-internet-cell-item>img{
+    width: 290px;
+    height: 290px;
+    /*position: relative;*/
+}
+.my-internet-cell-item{
+    position: relative;
+}
+.my-internet-cell-item>p1{
+    width: 100%;
+    /*padding: 0px 15px;*/
+    /*color: #7931ED;*/
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    opacity: 0.5;
+    /*white-space: nowrap !important;*/
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+}
+.my-internet-cell-item>p1 i{
+    display: block;
+    width: 200px;
+    margin: 0 auto  ;
+    padding:0 10px;
+    text-align: center;
+}
+.my-internet-cell-item>s{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 0;
+    right: 0;
+}
+.my-internet-cell-item>s img{
+    width: 38px;
+    height: 38px;
+}
+.my-internet-cell>p2 i{
+    padding-right: 5px;
+}
+.my-internet-cell>p2{
+    display: block;
+    width: 290px;
+    height: 30px;
+    padding: 0px 15px;
+    color: red;
+    /*height: 30px;*/
+    line-height: 30px;
+    white-space: nowrap !important;
+    overflow: hidden;
+    border-bottom: 1px solid red;
+    margin-bottom: 3px;
+    /*text-overflow: ellipsis;*/
+    /*text-align: center;*/
+}
+.my-internet-cell-detail{
+    padding-right: 20px;
+}
+.my-internet-cell-contry-flag{
+    padding: 8px 20px;
+}
+.my-internet-cell-contry-flag>img{
+    width: 30px;
+    height: 30px;
+}
+.my-internet-cell-price{
+    text-align: right;
+}
+.my-internet-cell-price>p4{
+    display: inline-block;
+    font:  400 16px/16px "simsun";
+    color: red;
+    margin-top: 10px;
+}
+.my-internet-cell-action{
+    height: 34px;
+    width: 256px;
+
+}
+.my-internet-cell-action>span{
+    /*height: 30px;*/
+    width: 30px;
+    text-align: center;
+    font: 500 14px/34px "simsun ";
+    border: 1px dashed #DD2727;
+    border-right: 0;
+    color: #DD2727;
+    /*margin-top: 5px;*/
+}
+.my-internet-cell-action>b{
+    width: 120px;
+    text-align: center;
+    font: 500 14px/34px "simsun ";
+    border: 1px dashed #DD2727;
+    color: #DD2727;
+}
+.my-internet-cell-action input{
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    width: 100px;
+    /*height: 36px;*/
+    display: block;
+    /*float: left;*/
+    color: #FFF;
+    height: 36px;
+    background: #7931ED none repeat scroll 0% 0%;
+    line-height: 30px;
+    border-radius: 0px;
+    margin-left: 3px;
+}
+.my-internet-more{
+    height: 150px;
+    /*border: 1px solid #000;*/
+    position: relative;
+    top: 15px;
+    left: 0;
+    margin-bottom: 7px;
+    background-color: #f5f5f5;
+}
+.my-internet-more>img{
+    width: 316px;
+    height: 38px;
+    position: absolute;
+    top: 10px;
+    left: 36%;
+}
+
+.my-internet-more-one{
+    width: 105px;
+    height: 36px;
+    color: #7A45E5;
+    border: 1px solid #7A45E5;
+    font: 400 15px/36px "sinsun";
+    text-align: center;
+    position: absolute;
+    bottom: 23px;
+    left: 44%;
+
+}
+.my-internet-brand-all{
+    background-color: #f5f5f5;
+}
+.my-internet-brand-all>li{
+    float: left;
+}
+.my-internet-brand{
+    width: 590px;
+    height: 426px;
+    /*border: 1px solid #000;*/
+}
+.my-internet-brand-img{
+    width: 380px;
+    height: 212px;
+    /*border: 1px solid #000;*/
+}
+
+
+.my-internet-brand-img2{
+    width: 140px;
+    height: 140px;
+    margin: 8px 19px;
+}
+.my-internet-brand-content{
+    width: 189px;
+    position: absolute;
+    bottom: -28px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 5px;
+}
+span.my-internet-brand-content{
+    bottom: -65px;
+    color: red;
+}
+.my-internet-brand-logo{
+    position: relative;
+}
+
+
+.my-internet-brand-logo>i{
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    bottom: 85px;
+    left: -136px;
+}
+.my-internet-contry{
+    height: 181px;
+    /*background-color: pink;*/
+}
+.my-internet-contry>li{
+    float: left;
+    width: 242px;
+    height: 89px;
+    border-top: 2px solid #F2F2F2;
+    background: url("") no-repeat 0 0;
+}
+li.my-2{
+    background-position: 0 -93px;
+}
+li.my-2{
+    background-position: 0 -93px;
+}
+
+/*shanShopping end*/
+.guan {
+    cursor: pointer;
+    /*margin: 10px 10px;*/
+    margin-bottom: 12px;
+    margin-top: 18px;
+}
+
+
+
+
+.mrmz {
+    width: 100%;
+    height: 80px;
+    background-color: #F5F5F5;
+    margin-top: -10px;
+    text-align: center;
+
+
+}
+
+.icn {
+    margin-top: 30px;
+}
+
+
+/*最热HOT start*/
+.hot{
+    /*width: 1190px;*/
+    height: 477px;
+    /*background-color: white;*/
+    /*border: 1px solid #000;*/
+}
+.hot-l {
+    width: 117px;
+    height: 477px;
+    /*border: 1px solid #000;*/
+    margin-top: -1px;
+}
+.hot-l h3{
+    font: 800 16px "microsoft yahei";
+    margin: 10px 20px;
+}
+
+.hot-l li {
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.hot-f2{
+    width: 193px;
+    height: 477px;
+    /*border: 1px solid #000;*/
+    margin-top: -488px;
+    margin-left: 118px;
+}
+.hot-f2-t{
+    height: 377px;
+}
+
+.hot-f2-d {
+    height: 104px;
+    background-color: #A36941;
+    font: 600 14px "yahei";
+    margin-top: -3px;
+}
+.hot-f2-d h1 {
+   padding: 15px;
+}
+.hot-f2-d p {
+    padding-left: 15px;
+}
+.hot-f3{
+    width: 396px;
+    height: 477px;
+    /*border: 1px solid #000;*/
+    margin-top: -479px;
+    margin-left: 312px;
+}
+.hot-f3-t {
+    height: 240px;
+}
+.t-l{
+    width: 180px;
+    height: 137px;
+    font:600 14px "yahei";
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.t-r {
+    /*border: 1px solid #000;*/
+    width: 210px;
+    height: 137px;
+    margin-top: -187px;
+    margin-left: 174px;
+}
+.hot-r {
+    width: 484px;
+    height: 477px;
+    margin-top: -564px;
+    margin-left: 709px;
+    /*border: 1px solid #000;*/
+}
+.hot-f3-d {
+    width: 396px;
+    height: 240px;
+    /*border: 1px solid #000;*/
+    margin-top: -105px;
+}
+
+.d-l{
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.d-l,.d-r a{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.d-r{
+    margin-top: -197px;
+    margin-left: 205px;
+
+}
+/*最热HOT end*/
+/*footer部分start*/
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer-service-shopping {
+    border-top: 1px solid #999999;
+}
+
+.footer-service-shopping dl {
+    margin-top: 25px;
+    padding-left: 80px;
+    float: left;
+    width: 160px;
+}
+
+.footer-service-shopping .last-dl {
+    width: 100px;
+}
+
+.footer-service-shopping dl dt,
+.coverage h1 {
+    height: 25px;
+    line-height: 25px;
+    font: 600 16px/35px "microsoft yahei";
+    color: #646479;
+}
+
+.footer-service-shopping dl dd {
+    height: 20px;
+    line-height: 20px;
+    color: #646479;
+    font: 400 12px/35px "microsoft yahei";
+    cursor: pointer;
+}
+
+.footer-service-shopping dl img {
+    margin-top: 10px;
+
+}
+
+.footer-service-shopping .last-dl {
+    width: 100px;
+}
+
+.footer-service-shopping dl dt,
+.coverage h1 {
+    height: 35px;
+    line-height: 35px;
+    font: 400 16px/35px "microsoft yahei";
+}
+
+.footer-service-shopping dl dd {
+    height: 20px;
+    line-height: 20px;
+}
+
+.coverage {
+    float: right;
+    width: 185px;
+    height: 170px;
+    padding-left: 15px;
+    /*background: url(../right-images/china.png) no-repeat left bottom;*/
+    margin-right: 40px;
+}
+
+.coverage p {
+    margin-top: 8px;
+}
+
+.coverage a {
+    float: right;
+}
+
+.footer-others {
+    border-top: 2px solid red;
+    padding: 20px 0 30px 0;
+    background-color: #000000;
+}
+
+.footer-others-links {
+    margin-left: 73px;
+}
+
+.footer-others-links a {
+    margin: 0 10px;
+    color: white;
+}
+
+.footer-others-copyright {
+    margin: 10px 80px;
+    color: white;
+
+}
+
+.footer-others-copyright a {
+    margin: 0 3px;
+    color: white;
+    line-height: 30px;
+}
+
+.footer-others-copyright span {
+    padding-right: 50px;
+}
+
+.footer-others-copyright p {
+    color: #A4A4A4;
+}
+
+.footer-others-img  {
+    padding-left: 70px;
+}
+.footer-others-img img{
+    margin-left: 10px;
+}
+/*footer end*/

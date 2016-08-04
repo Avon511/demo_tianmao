@@ -1,0 +1,438 @@
+/*内容*/
+.bj {
+    height: 500px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.lbt {
+    width: 1261px;
+    float: left;
+    position: relative;
+}
+
+.bj .lbt-zhfq div {
+
+    width: 1249px;
+    margin-left: -44px;
+    position: relative;
+}
+
+.bj .lbt .lbtq {
+    position: absolute;
+
+    background-color: #FF291E;
+    z-index: 999;
+}
+
+.bj .lbt .lbtw {
+    position: absolute;
+    padding-left: 100px;
+
+    background-color: #E8E8E8
+}
+
+.bj .lbt .lbte {
+    position: absolute;
+
+    background-color: #110F1D;
+}
+.bj .lbt .bjj{
+    width: 1349px;
+    box-sizing: border-box;
+    /*padding-left: 40px;*/
+}
+
+.bj .lbt .lbtr {
+    position: absolute;
+
+    background-color: #E8E8E8;
+}
+
+.bj .lbt .lbtt {
+    position: absolute;
+
+    background-color: #E8E8E8;
+}
+
+.bj .lbt .lbty {
+    position: absolute;
+
+    background-color: #E8E8E8;
+}
+
+.circle {
+    position: relative;
+    left: 50%;
+    margin-top: 465px;
+    padding-left: 500px;
+    transform: translate(-50%, 0);
+    bottom: 10px;
+    z-index: 1000;
+}
+
+.circle span {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #A2A2A2;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.fenlei {
+    position: absolute;
+    line-height: 31px;
+}
+
+.fenlei a {
+    font: 500 14px/15px "Microsoft YaHei";
+    color: #FFFFFF;
+
+}
+
+.fenlei > ul {
+    height: 500px;
+    width: 190px;
+    position: absolute;
+    opacity: 0.95;
+    z-index: 2000;
+    background-color: #333333;
+
+}
+
+.fenlei > ul > li {
+   padding-left: 20px;
+
+}
+
+.fenlei div {
+    margin-left: 190px;
+    position: absolute;
+    width: 780px;
+    height: 500px;
+    background-color: white;
+    z-index: 10000;
+    float: left;
+}
+
+.fenlei div ul li {
+    float: left;
+}
+
+.xiongmao {
+    position: absolute;
+    right: 30px;
+    margin-top: 28px;
+    z-index: 1000;
+}
+
+/*内容*/
+/*下拉搜索*/
+.xiala-ss{
+    /*position: fixed;*/
+    height: 50px;
+    width: 100%;
+    display: none;
+    z-index: 10002;
+}
+
+/*下拉搜索*/
+
+.slide-right-list{
+    height: 100%;
+    width: 43px;
+    position: fixed;
+    right: 0;
+    background-color: black;
+    float: left ;
+    /*overflow: hidden;*/
+    padding-top: 35px;
+    z-index: 9999;
+}
+.slide-right-list li{
+    padding-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+.slide-right-hide{
+    width: 101px;
+    height: 35px;
+    background-color: #484f5b;
+    position: absolute;
+    left: -146px;
+    top: 8px;
+    color: white;
+    line-height: 35px;
+    text-align: center  ;
+    display: none   ;
+}
+.slide-right-hide i{
+    color: #484f5b;
+    position: absolute;
+    right: -7px;
+    top: 0px;
+}
+
+
+/*热门品牌*/
+body {
+    background-color: #F5F5F5;
+}
+
+.my-charac {
+    height: 351px;
+    position: relative;
+    color: #2F2F2F;
+    font: 700 20px/30px "simsun";
+    background-color: white;
+}
+
+.my-charac-inco {
+    display: block;
+    width: 70px;
+    height: 50px;
+    /*border: 1px solid #000;*/
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.my-charac .my-charac-inco > img {
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.my-charac > img {
+    width: 297px;
+    height: 318px;
+    /*background-color: yellow;*/
+    margin-right: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.my-charac > div {
+    width: 282px;
+    height: 150px;
+    /*border: 1px solid palevioletred;*/
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    margin-top: 9px;
+}
+
+.my-charac > div h3 {
+    color: #2F2F2F;
+    line-height: 100%;
+    font-size: 19px;
+    font-weight: 700;
+    white-space: nowrap;
+    padding-top: 16px;
+}
+
+.my-charac > div h6, .my-charac > div h4 {
+    color: #666;
+    line-height: 100%;
+    font-size: 13px;
+    margin-top: 6px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.my-charac > span {
+    padding-left: 5px;
+    display: block;
+    height: 30px;
+    width: 100%;
+    font: 700 50px/30px "simsun";
+    /*border: 1px solid #000;*/
+    /*display: block;*/
+    /*height: 30px;*/
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    /*width: 220px;*/
+    /*margin-top: 10px;*/
+    position: relative;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.my-charac > span > b {
+    position: absolute;
+    top: 4px;
+    height: 18px;
+    width: 212px;
+    background: url("../imgs/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png") no-repeat -503px -101px;
+    cursor: pointer;
+}
+
+.my-charac > div img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.my-charac > span > .my-b {
+    position: absolute;
+    top: 4px;
+    height: 16px;
+    width: 212px;
+    background: url("../imgs/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png") no-repeat -503px -117px;
+}
+
+.my-charac .my-charac-hot-one {
+    width: 80px;
+    height: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.current {
+    border-bottom: 2px solid black;
+}
+
+.my-charac > ul {
+    width: 1226px;
+    cursor: pointer;
+}
+
+.my-charac > ul > li {
+    float: left;
+    width: 149px;
+    height: 78px;
+    border: 1px solid #f2f2f2;
+    position: relative;
+    overflow: hidden;
+}
+
+.my-charac > ul > li > i {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    background: #FFF none repeat scroll 0% 0%;
+    color: #C40000;
+    line-height: 20px;
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 20;
+    font-size: 30px;
+    display: none;
+}
+
+.my-charac > span > .my-mak {
+    background: url("../imgs/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png") no-repeat -503px -134px;
+}
+
+.my-coin-all {
+    height: 292px;
+}
+
+.my-coin-all > div {
+    float: left;
+}
+
+.my-coin {
+    width: 302px;
+    height: 96px;
+}
+
+.my-coin > img {
+    float: left;
+
+}
+
+.my-coin > h5, .my-coin > h6 {
+    padding-left: 13px;
+    color: #2F2F2F;
+    font-size: 13px;
+    height: 24px;
+    overflow: hidden;
+}
+
+body .my-coin > h5 {
+    padding-top: 20px;
+    color: #2F2F2F;
+    font-size: 16px;
+    height: 24px;
+    /*overflow: hidden;*/
+}
+
+/*.my-index-img{*/
+/*/!*width: 1620px;*!/*/
+/*/!*height: 90px;*!/*/
+/*}*/
+.my-index-img {
+    background-color: #FDF7E1;
+}
+
+.my-woederful {
+    width: 200px;
+    color: #999;
+    font-size: 28px;
+    text-align: center;
+    height: 43px;
+    line-height: 43px;
+    font-weight: 100;
+    background: transparent url("../imgs/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png") no-repeat scroll -726px -100px;
+}
+
+.my-index-shop-all > li {
+    float: left;
+    margin-left: 10px;
+    background-color: white;
+
+}
+
+.my-index-shop {
+    width: 230px;
+    height: 325px;
+}
+
+.my-index-shop > img {
+    width: 230px;
+    height: 230px;
+}
+
+.my-index-shop > span {
+    font-size: 18px;
+    line-height: 32px;
+    color: red;
+}
+
+.my-index-shop > p {
+    padding: 0 5px 0 5px;
+}
+
+.my-index-shop > span {
+    padding-left: 20px;
+}
+
+.my-index-shop-end {
+    width: 130px;
+    height: 72px;
+    background: url("../imgs/TB1qaIdKXXXXXXHXVXXBOphYpXX-1945-178.png") no-repeat 0 -102px;
+}
+
+.my-index-shop-end-all {
+
+}
+
+/*热门品牌*/

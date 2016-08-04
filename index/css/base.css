@@ -1,0 +1,598 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    /*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none; /*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse; /*合并外边线*/
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体，Unicode，统一码*/
+    color: #666;
+    background: #fff
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1261px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+
+/*头部*/
+.tb-dhl {
+    height: 32px;
+    line-height: 32px;
+    background-color: #F2F2F2;
+    font-family: "Microsoft YaHei";
+    border-bottom: 1px solid #E5E5E5;
+    position: relative;
+}
+
+.hyz span {
+    color: #999999;
+}
+
+.dhly .fore {
+    padding: 0 25px 0 10px;
+    position: relative;
+}
+
+.fore>ul {
+    width:90px;
+    position: absolute;
+    background-color: white;
+    /*border: 1px solid #999999;*/
+    display: none;
+    left: 0px;
+    z-index: 999;
+}
+.dhly .fore h3{
+    font-weight: 700;
+}
+
+
+.dhly .fore .ul-12 {
+    display: none;
+    width: 140px;
+    line-height: 25px;
+    left: -57px;
+}
+.dhly .fore .ul-12 a{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.tm-dh ul {
+    width: 1261px;
+    height: 250px;
+}
+.tm-dh .wzdh-xlk {
+    position: absolute;
+    display: none;
+    top: 32px;
+    right: 0;
+    left: auto;
+}
+.wzdh-xlk .site-hot{
+    width: 275px;
+}
+.wzdh-xlk .site-cont {
+    /*padding-left: 30px;*/
+    overflow: hidden;
+    height: 200px;
+}
+
+
+.tm-dh .wzdh-xlk div{
+    width: 1300px;
+}
+.tm-dh .wzdh-xlk ul{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.tm-dh .wzdh-xlk ul li {
+    width: 95px;
+    float: left;
+    padding: 6px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+.dhly .fore i {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 25px;
+    height: 7px;
+    font: 200 5px/10px "宋体";
+    overflow: hidden;
+}
+
+.dhly .fore i s {
+    position: absolute;
+    top: -7px;
+}
+
+.tb-dhl a {
+    color: #999999;
+}
+
+.dhly>ul>li{
+    float: left;
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+}
+
+
+
+
+.dhly .line {
+    width: 1px;
+    height: 12px;
+    background-color: #999999;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.dhly .scj {
+    padding-left: 10px;
+}
+
+.dhly .tm-xin {
+    position: relative;
+    padding-left: 20px;
+}
+
+.xin {
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    width: 15px;
+    height: 20px;
+    background: url("../ul-images/xin.png") no-repeat;
+}
+
+.dhly .tm-gwc {
+    position: relative;
+    padding-left: 20px;
+}
+
+.gwc {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 15px;
+    height: 20px;
+    background: url("../ul-images/gwc.png") no-repeat;
+}
+
+.dhly .tm-xsj {
+    position: relative;
+    padding-left: 26px;
+}
+
+.xsj {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 15px;
+    height: 20px;
+    background: url("../ul-images/xsj.png") no-repeat;
+}
+.tm-xsj>ul>li>img{
+    position: absolute;
+    z-index:500;
+    margin-left: -85px;
+}
+
+.dhly .tm-dh {
+    position: relative;
+    padding-left: 20px;
+}
+
+.dh {
+    position: absolute;
+    top: 11px;
+    left: 5px;
+    width: 15px;
+    height: 20px;
+    background: url("../ul-images/dh.png") no-repeat;
+}
+
+/*头部*/
+
+/*顶部 logo 搜索 */
+.topbanner {
+    height: 80px;
+    width: 100%;
+    background-color: #8A26C6;
+}
+
+.tp {
+    position: relative;
+}
+
+.close-topbanner {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 19px;
+    height: 19px;
+    background: url(../ul-images/juzi.png) no-repeat;
+}
+
+.close-topbanner:hover {
+    background-position: bottom;
+}
+
+/*search部分start*/
+
+.search-logo {
+
+    float: left;
+    position: relative;
+}
+
+.jd-db11 {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.search-input {
+    padding-left: 175px;
+    height: 36px;
+    padding-top: 25px;
+    float: left;
+}
+
+.search-input input {
+    float: left;
+    width: 399px;
+    height: 32px;
+    padding-left: 4px;
+    border: 3px solid #C40000;
+    color: #666666;
+    font: 14px/32px "microsoft yahei";
+}
+
+.search-input button {
+    float: left;
+    width: 80px;
+    height: 38px;
+    background-color: #C40000;
+    text-align: center;
+    font: 400 16px/36px "微软雅黑";
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-input button:hover {
+    background-color: #C40000;
+}
+
+.search-car {
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+.search-more {
+    width: 500px;
+    height: 28px;
+    margin-top: 9px;
+    padding-left: 175px;
+    line-height: 28px;
+    float: left;
+    font-size: 14px;
+
+}
+
+a:hover {
+    color: #C40000;
+}
+
+.search-more span {
+    border: 1px solid #999999;
+    margin: 0 10px;
+}
+
+/*顶部 logo 搜索 */
+
+/*dh部分start*/
+
+.shortcut-item {
+    height: 31px;
+    padding: 0 10px;
+    color: #fff;
+    font: 400 14px/31px "microsoft yahei";
+}
+
+.shortcut-items {
+    margin: 18px 0 15px 15px;
+    height: 22px;
+    float: left;
+}
+
+.shortcut-items ul li {
+    float: left;
+}
+
+.shortcut-items ul li a {
+    display: block;
+    font: 400 16px/44px "microsoft yahei";
+    padding: 0 20px;
+    color: #333333;
+}
+
+.shortcut-items ul li a:hover {
+    color: #C81623;
+}
+
+.shortcut-items span {
+    float: right;
+    color: #A4A4A4;
+    margin-top: -30px;
+}
+
+/*dh部分end*/
+
+/*脚部*/
+/*footer部分start*/
+.footer-service {
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.footer-service-slogans {
+    height: 54px;
+    padding: 50px 0;
+    position: relative;
+    background-color: white;
+
+}
+
+.slogan {
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    height: 54px;
+}
+
+.slogan1 {
+    margin-left: -604px;
+}
+
+.slogan2 {
+    margin-left: -302px;
+}
+
+.slogan4 {
+    margin-left: 302px;
+}
+
+.footer-service-shopping {
+    border-top: 1px solid #999999;
+}
+
+.footer-service-shopping dl {
+    margin-top: 25px;
+    padding-left: 80px;
+    float: left;
+    width: 160px;
+}
+
+.footer-service-shopping .last-dl {
+    width: 100px;
+}
+
+.footer-service-shopping dl dt,
+.coverage h1 {
+    height: 25px;
+    line-height: 25px;
+    font: 600 16px/35px "microsoft yahei";
+    color: #646479;
+}
+
+.footer-service-shopping dl dd {
+    height: 20px;
+    line-height: 20px;
+    color: #646479;
+    font: 400 12px/35px "microsoft yahei";
+    cursor: pointer;
+}
+
+.footer-service-shopping dl img {
+    margin-top: 10px;
+
+}
+
+.footer-service-shopping .last-dl {
+    width: 100px;
+}
+
+.footer-service-shopping dl dt,
+.coverage h1 {
+    height: 35px;
+    line-height: 35px;
+    font: 400 16px/35px "microsoft yahei";
+}
+
+.footer-service-shopping dl dd {
+    height: 20px;
+    line-height: 20px;
+}
+
+.tm-xmt{
+    float: left;
+    margin-left: 115px;
+    margin-top: -3px;
+}
+
+.coverage {
+    float: right;
+    width: 185px;
+    height: 170px;
+    padding-left: 15px;
+    margin-right: 40px;
+}
+
+.coverage p {
+    margin-top: 8px;
+}
+
+.coverage a {
+    float: right;
+}
+
+.footer-others {
+    border-top: 2px solid red;
+    padding: 20px 0 30px 0;
+    background-color: #000000;
+}
+
+.footer-others-links {
+    margin-left: 73px;
+}
+
+.footer-others-links a {
+    margin: 0 10px;
+    color: white;
+}
+
+.footer-others-copyright {
+    margin: 10px 80px;
+    color: white;
+
+}
+
+.footer-others-copyright a {
+    margin: 0 3px;
+    color: white;
+    line-height: 30px;
+}
+
+.footer-others-copyright span {
+    padding-right: 50px;
+}
+
+.footer-others-copyright p {
+    color: #A4A4A4;
+}
+
+.footer-others-img {
+    padding-left: 70px;
+}
+
+.footer-others-img img {
+    margin-left: 10px;
+}
+
+/*脚部*/

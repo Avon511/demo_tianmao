@@ -1,0 +1,944 @@
+/*search部分 start*/
+.ele-search {
+    height: 45px;
+    margin:20px 0;
+    position: relative;
+}
+.ele-search-logo {
+    width: 144px;
+    height: 45px;
+    float:left;
+}
+.ele-search-more{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    top:10px;
+    left:240px;
+    cursor: pointer;
+
+}
+.ele-search-more .more {
+    width: 110px;
+    /*height: 80px;*/
+    border: 1px solid #ccc;
+    line-height: 20px;
+    background: #fff;
+    padding:10px;
+    position: absolute;
+    left:-1px;
+    top:18px;
+    z-index: 20;
+    display: none;
+}
+.ele-search-input{
+    width: 536px;
+    height: 32px;
+    position: relative;
+    float:right;
+    border: 2px solid #296ECC;
+}
+.ele-search-input .input1{
+    width: 536px;
+    height: 30px;
+    padding-left:15px;
+    font:400 14px/30px "micorsoft yahei";
+    position: absolute;
+    top:2px;
+    color: #939393;
+}
+.search-btn {
+    width: 90px;
+    height: 32px;
+    background: #296ECC;
+    color:#fff;
+    font:400 18px/30px "microsoft yahei";
+    cursor:pointer;
+    position: absolute;
+    right:-2px;
+}
+/*search部分 end*/
+
+/*mid-nav部分 start*/
+.navBar{
+    width: 100%;
+}
+.mid-nav{
+    height: 35px;
+    border-bottom: 1px solid #296ECC;
+    position: relative;
+    background: #fff;
+    /*line-height: 35px;*/
+}
+#cloud{
+    height: 3px;
+    width: 83px;
+    background-color: #296ECC;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.mid-nav ul {
+    margin-left:5px;
+    margin-bottom:3px;
+    position: absolute;
+}
+.mid-nav ul li {
+    float: left;
+    margin-right:40px;
+    font:700 16px/35px "黑体";
+}
+.mid-nav li a{
+    color:black;
+}
+.mid-nav .current {
+    color:#296ECC;
+}
+.mid-nav-service {
+    position: absolute;
+    right:3px;
+    font:bold 12px/35px "黑体";
+}
+.navBar.fixed{
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 10;
+}
+/*mid-nav部分 end*/
+
+/*mian 部分 start*/
+.ele-main{
+    height: 538px;
+    margin-bottom:25px;
+}
+.ele-main-left{
+    float:left;
+    border-left:1px solid #E5E5E5;
+    border-bottom:1px solid #E5E5E5;
+}
+.main-left-top{
+    width: 189px;
+    height: 460px;
+    position: relative;;
+}
+
+.drop-all{
+    /*width: 190px;*/
+    height: 40px;
+    background: #000000;
+    position: relative;
+
+}
+.asiderightAll {
+    position: absolute;
+    z-index: 20;
+    left:179px;
+    top:0;
+    display: none;
+    border: 1px solid #000;
+    border-left:none;
+}
+.asideright {
+    position: absolute;
+    z-index: 20;
+    left:187px;
+    top:0;
+    display: none;
+    border: 1px solid #000;
+    border-left:none;
+}
+.drop-all h1{
+    float:left;
+}
+.drop-all a {
+    font:400 15px/40px "microsoft yahei";
+    padding-left:10px;
+    color:white;
+}
+.drop-all i{
+    float:right;
+    font:bold 15px/40px consloas;
+    color:#fff;
+    margin-right:10px;
+}
+.drop-all:hover{
+    background:#fff;
+}
+.drop-all:hover a{
+    color:#000000;
+}
+.sel-one {
+    height: 30px;
+    background: #333333;
+    padding-left:15px;
+    padding-right:10px;
+    /*position: relative;*/
+}
+.sel-one:hover{
+    background:#fff;
+}
+.sel-one:hover a{
+    color:#000000;
+    text-decoration: dotted;
+}
+.sel-one h1{
+    float:left;
+}
+.sel-one a {
+    font:400 12px/30px "microsoft yahei";
+    color:#fff;
+}
+.sel-one i{
+    float:right;
+    font:bold 12px/30px consloas;
+    color:#fff;
+}
+.main-left-bottom {
+    width: 189px;
+    overflow: hidden;
+}
+.ele-main-right{
+    float:left;
+}
+.mian-right-top .slide {
+    width: 800px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float:left;
+}
+.slide ul {
+    width: 1000%;
+    position: absolute;
+}
+.slide ul li{
+    float:left;
+}
+.slide ol {
+    position: absolute;
+    right:30px;
+    bottom:15px;
+}
+.slide ol li{
+    float:left;
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius:50%;
+    text-align: center;
+    cursor:pointer;
+    margin-right:5px;
+    font:400 15px/20px "����";
+}
+.slide .current {
+    background-color: #B1191A !important;
+    color:#fff;
+}
+
+.mian-right-top .img{
+    width: 219px;
+    float:left;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+.slide .arrow{
+    position: relative;
+    top:50%;
+    margin-top:-31px;
+    display: none;
+}
+.arrow-l,.arrow-r {
+    display: block;
+    width: 28px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font:400 22px/62px "simsun";
+    background:rgba(0,0,0,0.3);
+    position: absolute;
+}
+.arrow a {
+    color:#fff;
+}
+.arrow a:hover {
+    color:#fff;
+    background: rgba(0, 0, 0, .6);
+}
+.arrow-l {
+    left:0;
+}
+.arrow-r {
+    right:0;
+}
+.main-right-bottom {
+    width: 1018px;
+    /*height: 240px;*/
+    border-right: 1px solid #E5E5E5;
+    float:left;
+}
+.main-right-bottom ul li{
+    float:left;
+    width: 200px;
+    height: 239px;
+    border-left: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    position: relative;
+}
+.main-right-bottom h3{
+    font-size: 16px;
+    color: #000;
+    line-height: 24px;
+    padding: 14px 0 0 24px;
+    font-weight: bold;
+}
+.main-right-bottom p{
+    padding-left: 24px;
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.main-right-bottom img {
+    border: 0;
+    vertical-align: middle;
+}
+.main-right-bottom-icon{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: #000;
+    color:#fff;
+    font:400 16px/16px consolas;
+    bottom:10px;
+    right:15px;
+    border-radius:8px 8px 8px 8px;
+    text-align: center;
+}
+/*mian 部分 end*/
+/*ele-brands 部分 start*/
+.ele-brands {
+    margin-bottom:33px;
+    height: 380px;
+    position: relative;
+
+}
+.ele-brands-nav h1 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    font:bolder 24px/24px "黑体";
+}
+.ele-brands-classify  {
+    height: 60px;
+}
+.ele-brands-classify ul{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+}
+.ele-brands-classify ul li{
+    float:left;
+    width: 160px;
+    height: 40px;
+    margin: 10px 10px 10px 0;
+    background: #E5E5E5;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+    color:#000;
+}
+.ele-brands-classify li.active{
+    background-color: #000;
+    color:#fff;
+}
+.brands-content ul{
+    overflow: hidden;
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    display: inline-block;
+    zoom: 1;
+}
+.ele-brands .brands-content-pos {
+    position: absolute;
+    top:97px;
+    display: none;
+
+}
+.ele-brands .brands-content-pos-show{
+    display: block;
+}
+.brands-content ul li{
+    width: 150px;
+    height: 100px;
+    float:left;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.brands-content li img{
+    width: 139.6px;
+    height: 70px;
+    padding: 15px 4px;
+}
+/*ele-brands 部分 end*/
+/*ele-shopping部分 start*/
+.my-ele-module{
+    height: 780px;
+    /*background-color:white;*/
+    margin-bottom:10px;
+}
+.my-ele-module>h1{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+}
+.my-ele-module h1 span{
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+    padding: 0 5px;
+    display: inline;
+}
+.my-ele-module>ul{
+    width: 100%;
+    margin:5px 0;
+}
+.my-ele-module>ul li{
+    float: left;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #000;
+    font: 400 15px/40px "simsun";
+    margin-right:10px;
+    color:#000000;
+    cursor: pointer;
+}
+.my-ele-module .my-ele-module-current{
+    background-color: black;
+    color: white;
+}
+.my-ele-module-one{
+    height: 340px;
+    width: 237px;
+    /*border: 1px solid #000;*/
+    text-align: center;
+    margin: 1px;
+}
+.my-ele-module-one img.current{
+    opacity:0.9;
+}
+.my-ele-module-one img{
+    position: relative;
+    left:0;
+    cursor: pointer;
+}
+.my-ele-module-one>div img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+.my-ele-module-one>div{
+    width: 208px;
+    height: 300px;
+    margin: 0 auto ;
+}
+.my-ele-module-one .p1{
+    display: block;
+    height: 10px;
+    line-height: 20px;
+}
+.my-ele-module-one .p2{
+    color: #E98109;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+.my-ele-module-one .p3{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 12px;
+    display: block;
+    height: 20px;
+}
+.my-ele-module-one input{
+    height: 20px;
+    width: 90px;
+    display: inline-block;
+    border: 1px solid #DD2727;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #DD2727;
+    background: transparent none repeat scroll 0% 0%;
+    border-radius: 2px;
+    outline: 0px none;
+    cursor: pointer;
+}
+/*ele-shopping部分 end*/
+/*ele-seckilling(疯狂秒杀)部分 start*/
+.ele-seckilling{
+    margin-bottom:30px;
+}
+.ele-seckilling-nav  {
+    border-bottom:1px solid #000;
+    padding-left:5px;
+}
+.ele-seckilling-nav h1{
+    font:bolder 18px/20px "microsoft yahei";
+    color:#000;
+    display: inline-block;
+}
+.ele-seckilling-nav span {
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+    padding: 0 5px;
+    display: inline-block;
+}
+.ele-seckilling-mid {
+    margin:10px 0;
+    height: 39px;
+    position: relative;
+}
+.seckilling-mid-left {
+    width: 612px;
+    height: 39px;
+    background-color: #EE0A3B;
+    line-height: 39px;;
+    color:#fff;
+    position: absolute;
+    left:0;
+}
+.seckilling-mid-right {
+    width: 612px;
+    height: 39px;
+    background-color: #E5E5E5;
+    line-height: 39px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left:590px;
+}
+span.l{
+    float:left;
+    margin-left:50px;
+
+}
+span.r{
+    float:right;
+    margin-right:80px;
+}
+.ele-seckilling-content {
+    border: 1px solid #E5E5E5;
+    overflow: hidden;
+}
+.ele-seckilling-content .one{
+    float:left;
+}
+.ele-seckilling-content .two,
+.ele-seckilling-content .four{
+    float:left;
+    padding-left:10px;
+    width: 238px;
+    position: relative;
+}
+.ele-seckilling-content .two h3,
+.ele-seckilling-content .four h3{
+    height: 20px;
+    font:bold 16px/20px "microsoft yahei";
+    margin-bottom:7px;
+    color:#000;
+}
+.ele-seckilling-content .two p,
+.ele-seckilling-content .four p{
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    color:#999;
+    margin-bottom:20px;
+}
+.regularprice{
+    display: block;
+    height: 20px;
+    font:14px/16px "microsoft yahei";
+    margin-bottom:5px;
+}
+.seckprice {
+    display: block;
+    color:#C40000;
+    font:700 25px/25px "microsoft yahei";
+}
+.begin{
+    position: absolute;
+    background-color: #E5E5E5;
+    color: #666;
+    bottom:5px;
+    right: 12px;
+    padding: 0 1em;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.three{
+    float:left;
+}
+/*ele-seckilling(疯狂秒杀)部分 end*/
+/*ele-computer部分 start*/
+.ele-commen {
+    margin-bottom:25px;
+}
+.ele-commen-nav {
+    height: 38px;
+    border-bottom: 2px solid #000;
+}
+.ele-commen-nav h1{
+    float:left;
+    font:700 24px/38px "microsoft yahei";
+    color:#000;
+}
+.ele-commen-nav h1 span{
+    font-size:14px;
+    font-weight: normal;
+    color:#999;
+}
+.ele-commen-nav ul{
+    float:right;
+}
+.ele-commen-nav ul li{
+    float:left;
+}
+.ele-commen-nav  li a{
+    display: inline-block;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    /*float: left;*/
+    font:14px/36px "microsoft yahei";
+    text-align: center;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.ele-commen-classify {
+    height: 64px;
+    background-color: #EFEFEF;
+    padding:13px 20px;
+    margin-bottom:10px;
+}
+.ele-commen-classify-l{
+    width: 613px;
+    height: 56px;
+    overflow: hidden;
+    padding-top:4px;
+    border-right: 1px solid #000;
+    float:left;
+}
+.classify-l-icon{
+    float:left;
+    margin-top:8px;
+}
+.classify-l-title{
+    float:left;
+    margin:14px 16px 0 16px;
+    font:14px/18px "microsoft yahei";
+}
+.classify-l-lis {
+    float:left;
+    width: 490px;
+}
+.classify-l-lis li{
+    float:left;
+    width: 88px;
+    height: 22px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 22px;
+    margin-right:8px;
+    margin-bottom:8px;
+    background: #fff;
+    color:#000;
+    font-size: 12px;
+    cursor:pointer;
+}
+.ele-commen-classify-r {
+    float:right;
+}
+.ele-commen-classify-r .classify-r-lis {
+    float:left;
+    width: 390px;
+}
+.commen-img-left {
+    float:left;
+    overflow: hidden;
+    width: 230px;
+    position: relative;
+    height:480px;
+}
+.commen-img-bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.commen-img-left-top{
+    height: 390px;
+    position: relative;
+    width: 230px;
+}
+.commen-img-left ul {
+    position: absolute;
+    width: 300%;
+    height: 90px;
+    left:0;
+    top:0;
+}
+.commen-img-left ul li{
+    float:left;
+}
+/*.commen-imge-left-top{*/
+    /*position: relative;*/
+/*}*/
+.commen-img-ol{
+    position: absolute;
+    left:50%;
+    bottom:98px;
+    margin-left:-20px;
+}
+.commen-img-ol li{
+    float:left;
+    margin-right:5px;
+}
+
+.commen-img-ol li a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    background: #fff;
+}
+
+
+
+.commen-img-mid {
+    width: 740px;
+    height: 480px;
+    overflow: hidden;
+    float:left;
+}
+.commen-img-mid ul{
+    width: 100%;
+}
+.commen-img-mid ul li{
+    width: 240px;
+    height: 240px;
+    float:left;
+    border-right: 1px solid #E5E5E5;
+}
+.commen-img-mid li.current{
+    opacity: 0.3;
+}
+.commen-img-mid .bottom{
+    border-top: 1px solid #E5E5E5;
+}
+.bottom{
+    position: relative;
+    overflow: hidden;
+}
+.bottom a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.commen-title {
+    margin: 15px 0 0 18px;
+}
+.commen-title-p1{
+    height: 21px;
+    font-size: 14px;
+    color: #000;
+}
+.commen-title-p2{
+    height: 18px;
+    color: #ccc;
+}
+.commen-price{
+    font-size: 16px;
+    color: #333;
+    margin-top: 2px;
+    margin-left:18px;
+}
+.commen-img-circle {
+    position: absolute;
+    bottom: 4px;
+    left: 18px;
+}
+.commen-top,.commen-bottom{
+    margin-bottom: 8px;
+    padding: 9px;
+    background: url(../ele-images/yuan.png) no-repeat -2px -2px;
+}
+.commen-bottom{
+    background-position: -2px -55px;
+}
+.commen-top-inner,
+.commen-bottom-inner{
+    width: 32px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+    max-height: 32px;
+    overflow: hidden;
+    /*word-break: break-all;*/
+}
+.commen-img{
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    width: 170px;
+    height: 170px;
+}
+.commen-img-right-tab {
+    height: 478px;
+    float:left;
+    border: 1px solid #e5e5e5;
+    border-left:none;
+    color: #000;
+    font-size: 14px;
+    overflow: hidden;
+    width: 238px;
+    position: relative;
+}
+.tab-top{
+
+    background: url(../ele-images/moutain.png) no-repeat 8px 8px;
+    position: relative;
+}
+.tab-top-lab{
+    display:block;
+    width: 42px;
+    height: 3px;
+    background: #2964DD;
+    position: absolute;
+    bottom:1px;
+    left:35px;
+}
+.tab-top ul{
+    overflow: hidden;
+    /*zoom: 1;*/
+    /*position: relative;*/
+    left: 0;
+    padding-left: 35px;
+    padding-right: 5px;
+    width: 200px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.tab-top ul li{
+    float:left;
+    width: 42px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    cursor:pointer;
+    font-family: "microsoft yahei";
+    padding-right:5px;
+}
+.tab-con{
+    position: absolute;
+    display: none;
+}
+.tab-con-show{
+    display: block;
+}
+.tab-con-lis {
+    position: relative;
+    /*height: 95px;*/
+    width: 220px;
+    height: 49px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 5px;
+    padding-left: 12px
+}
+.current.tab-con-lis{
+    height: 95px;
+}
+
+.tab-con-number{
+    position: absolute;
+    width: 8px;
+    height: 15px;
+    left: 5px;
+    top: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    color:#000000;
+}
+.tab-con-img {
+    position: absolute;
+    right:6px;
+    top:14px;
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+.current .tab-con-img{
+    display: block;
+}
+.tab-con-price {
+    padding: 13px 0 0 22px;
+    color: #000;
+    font-size: 14px
+}
+.tab-con-lis .con-name{
+    width: 140px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sell-price{
+    top:15px;
+     right:3px;
+    position: absolute;
+
+}
+.current .sell-price{
+    left:30px;
+    top:35px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.sellVolune {
+    display: none;
+    color:#bbb;
+    padding-top:28px;
+    height: 20px;
+    line-height: 20px;
+}
+.current .sellVolune{
+    display: block;
+}
+/*ele-computer部分 end*/
+
+/*猜你喜欢 部分 start*/
+.title{
+    font:600 20px/30px "microsoft yahei";
+    color:#000;
+
+}
+/*猜你喜欢 部分 end*/

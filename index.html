@@ -1,104 +1,576 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>360安全导航</title>
-	<link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+
+    <title>天猫主页</title>
+    <link rel="shortcut icon" href="index/favicon.ico"/>
+    <link rel="stylesheet" href="index/css/base.css"/>
+    <link rel="stylesheet" href="index/css/index.css"/>
+    <link rel="stylesheet" href="index/css/lrtk.css"/>
+    <link rel="stylesheet" href="index/css/animation.css"/>
+
+    <script src="index/jquery-1.11.1.js"></script>
+    <!--<script type="text/javascript" src="index/homepage-js/public.js">  WQQEQ</script>-->
+    <!--<script type="text/javascript" src="index/homepage-js/main.js"></script>-->
+    <script  type="text/javascript" src="index/homepage-js/homepage.js"></script>
 </head>
 <body>
-	<div class="fullpage" id="fullpage">
-		<!-- 第一屏 -->
-		<section class="section">
-			<!-- LOGO -->
-			<div class="logo"></div>
-			<!-- 文字 -->
-			<div class="text"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-			<!-- 特征 -->
-			<div class="feature"></div>
-		</section>
-		<!-- 第二屏 -->
-		<section class="section">
-			<!-- 盾牌 -->
-			<div class="shield">
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-			<!-- 介绍 -->
-			<!--wo -->
-			<div class="intro"></div>
-		</section>
-		<!-- 第三屏 -->
-		<section class="section">
-			<!-- 介绍 -->
-			<div class="intro"></div>
-			<!-- 圆环 -->
-			<div class="circle">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-			<!-- 火箭 -->
-			<div class="rocket"></div>
-		</section>
-		<!-- 第四屏 -->
-		<section class="section">
-			<!-- 搜索框 -->
-			<div class="search">
-				<!-- 关键字 -->
-				<span class="key"></span>
-				<!-- 查询结果 -->
-				<div class="wrap">
-					<div class="tips"></div>
-				</div>
-			</div>
-			<!-- 介绍 -->
-			<div class="intro"></div>
-		</section>
-		<!-- 第五屏 -->
-		<section class="section">
-			<!-- 介绍 -->
-			<div class="intro"></div>
-			<div class="browser">
-				<!-- 背影 -->
-				<div class="bg"></div>
-				<!-- 工具栏 -->
-				<div class="swrap">
-					<span></span>
-				</div>
-				<!-- 边框线 -->
-				<div class="line"></div>
-				<div class="leftside border"></div>
-				<div class="topside border"></div>
-				<div class="rightside border"></div>
-				<div class="bottomside border"></div>
-			</div>
-		</section>
-	</div>
-	<script src="./js/jquery.min.js"></script>
-	<script src="./js/jquery.fullPage.min.js"></script>
-	<script>
+<div class="slide-right">
+    <ul class="slide-right-list">
+        <li><img src="index/right-images/myi1.png" alt=""/><div class="slide-right-hide">我的特权<i>◆</i></div>
+        </li>
+        <li><img src="index/right-images/myi10.png" alt=""/><div class="slide-right-hide">我的购物车<i>◆</i></div></li>
+        <li><img src="index/right-images/myi2.png" alt=""/><div class="slide-right-hide">我的资产<i>◆</i></div></li>
+        <li><img src="index/right-images/myi3.png" alt=""/><div class="slide-right-hide">我的关注的品牌<i>◆</i></div></li>
+        <li><img src="index/right-images/myi4.png" alt=""/><div class="slide-right-hide">我的收藏<i>◆</i></div></li>
+        <li><img src="index/right-images/myi5.png" alt=""/><div class="slide-right-hide">我看过的<i>◆</i></div></li>
+        <li><img src="index/right-images/myi6.png" alt=""/><div class="slide-right-hide">我的要充值<i>◆</i></div></li>
+        <li><img src="index/right-images/myi7.png" alt=""/><div class="slide-right-hide">用户反馈<i>◆</i></div></li>
+        <li><img src="index/right-images/myi8.png" alt=""/><div class="slide-right-hide">我的特权<i>◆</i></div></li>
+        <li><img src="index/right-images/myi9.png" alt=""/><div class="slide-right-hide" id="clickTop">返回顶部<i>◆</i></div></li>
+    </ul>
+</div>
+<!--下拉搜索-->
 
-		$('#fullpage').fullpage({
-			css3: true,
-			afterLoad: function (anchorLink, index) {
+<div class="xiala-ss">
+    <div class="w">
+    <img src="index/ul-images/下拉搜索.png" alt=""/>
+    </div>
+</div>
 
-				$('.section').removeClass('current');
-				
-				// 延时100毫秒执行
-				setTimeout(function () {
-					$('.section').eq(index - 1).addClass('current');
-				}, 100);
-			},
-			onLeave: function (index, nextIndex, direction) {
-			}
-		});
-	</script>
+<!--下拉搜索-->
+<!--头部-->
+<div class="tb-dhl">
+    <div class="w">
+        <div class="fl">
+            <div class="hyz">
+                <span>喵，欢迎来天猫</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">请登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">免费注册</a>
+            </div>
+        </div>
+        <div class="fr dhly">
+            <ul>
+                <li class="fore">
+                    <a href="javascript:void(0);">我的淘宝</a>
+                    <ul class="ul">
+                        <li><a href="javascript:void(0);">已买到的宝贝</a></li>
+                        <li><a href="javascript:void(0);">已卖出的宝贝</a></li>
+                    </ul>
+                    <i><s>◆</s></i>
+                </li>
+                <li class="tm-xin"><span class="xin"></span><a href="#">我关注的品牌</a></li>
+                <li class="tm-gwc"><span class="gwc"></span><a href="#">购物车0件</a></li>
+                <li class="fore scj"><a href="#">收藏夹</a>
+                    <ul class="ul">
+                        <li><a href="javascript:void(0);">收藏的宝贝</a></li>
+                        <li><a href="javascript:void(0);">收藏的店铺</a></li>
+                    </ul>
+                    <i><s>◆</s></i></li>
+                <li class="line"></li>
+                <li class="fore tm-xsj"><span class="xsj"></span><a href="#">手机版</a>
+                    <ul class="ul"><li><img src="index/ul-images/二维码t.png" alt=""/></li></ul>
+                </li>
+                <li><a href="#">淘宝网</a></li>
+                <li class="fore"><a href="#">商家支持</a>
+                    <ul class="ul-12">
+                        <h3>商家</h3>
+                        <li><a href="javascript:void(0);">商家中心</a>
+                            <a href="javascript:void(0);">商家入驻</a>
+                            <a href="javascript:void(0);">运营服务</a>
+                            <a href="javascript:void(0);">商家品控</a></li>
+                        <li><a href="javascript:void(0);">商家工具</a>
+                            <a href="javascript:void(0);">商家规则</a>
+                            <a href="javascript:void(0);">天猫智库</a>
+                            <a href="javascript:void(0);">喵言喵语</a></li>
+                    </ul>
+                    <i><s>◆</s></i></li>
+                <li class="fore tm-dh"><span class="dh"></span><a href="#">网站导航</a>
+                    <ul class="w wzdh-xlk">
+                        <div class="site-cont site-hot">
+                            <img src="index/ul-images/网站导航.png" alt=""/>
+                        </div>
+
+                    </ul>
+                    <i><s>◆</s></i>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<!--头部-->
+
+
+<!--顶部搜索栏-->
+<div class="w search clearfix">
+    <div class="search-logo">
+        <a href="#" class="tm-db11">
+            <img src="index/ul-images/ul-dongtaitu.gif">
+        </a>
+    </div>
+    <div class="search-input">
+        <input type="text" required autofocus placeholder="功夫熊猫卖萌贺岁">
+        <button>搜索</button>
+    </div>
+    <div class="search-car">
+        <a href="#"><img src="index/ul-images/juzi.png" alt=""/></a>
+
+    </div>
+    <div class="search-more">
+        <a href="#" class="col-red">皮衣</a><span></span>
+        <a href="#">护手霜</a><span></span>
+        <a href="#">羽绒服</a><span></span>
+        <a href="#">雪地靴</a><span></span>
+        <a href="#">四件套</a><span></span>
+        <a href="#">4K电视</a><span></span>
+        <a href="#">口罩</a><span></span>
+        <a href="#">酒</a>
+    </div>
+    <div class="shortcut-items">
+        <ul>
+            <li><a href="eletric/ele-index.html" target="_blank">电器城</a><span>/</span></li>
+            <li><a href="#">喵鲜生</a><span>/</span></li>
+            <li><a href="VIP/my-vip-index.html" target="_blank">天猫会员</a><span>/</span></li>
+            <li><a href="stydy/index.html" target="_blank">尚天猫</a><span>/</span></li>
+            <li><a href="suppermarket/supermarket.html" target="_blank">天猫超市</a><span>/</span></li>
+            <li><a href="#">医药馆</a><span>/</span></li>
+            <li><a href="trelve/alitrtip.html" target="_blank">阿里旅行</a><span>/</span></li>
+            <li><a href="international/tmgj.html" target="_blank">天猫国际</a></li>
+        </ul>
+    </div>
+    <div class="shortcut-free">
+        <a href="#"></a>
+
+    </div>
+</div>
+<!--顶部搜索栏-->
+
+<!--大图片-->
+<div class="w bj clearfix">
+    <div class="lbt clearfix">
+        <div class="fl fenlei">
+            <ul>
+                <li><a href="#">女装 /</a><a href="#">内衣</a></li>
+                <li><a href="#">男装 /</a><a href="#">运动户外</a></li>
+                <li><a href="#">女鞋 /</a><a href="#">男鞋 /</a><a href="#">箱包</a></li>
+                <li><a href="#">化妆品 /</a><a href="#">个人护理</a></li>
+                <li><a href="#">腕表 /</a><a href="#">珠宝饰品 /</a><a href="#">眼镜</a></li>
+                <li><a href="#">手机 /</a><a href="#">数码 /</a><a href="#">电脑办公</a></li>
+                <li><a href="#">母婴玩具</a></li>
+                <li><a href="#">零食 /</a><a href="#">进口食品 /</a><a href="#">茶酒</a></li>
+                <li><a href="#">大家电 /</a><a href="#">生活电器</a></li>
+                <li><a href="#">家居建材</a></li>
+                <li><a href="#">汽车 /</a><a href="#">配件 /</a><a href="#">用品</a></li>
+                <li><a href="#">家纺 /</a><a href="#">布艺 /</a><a href="#">鲜花</a></li>
+                <li><a href="#">医药保健</a></li>
+                <li><a href="#">厨具 /</a><a href="#">收纳 /</a><a href="#">宠物</a></li>
+                <li><a href="#">图书影音</a></li>
+                <li><a href="#">天猫超市</a></li>
+            </ul>
+            <div>
+                <ul>
+                    <li><img src="index/ul-images/1.png" alt=""/></li>
+                    <li><img src="index/ul-images/2.png" alt=""/></li>
+                    <li><img src="index/ul-images/3.png" alt=""/></li>
+                    <li><img src="index/ul-images/4.png" alt=""/></li>
+                    <li><img src="index/ul-images/5.png" alt=""/></li>
+                    <li><img src="index/ul-images/手机1.png" alt=""/></li>
+                    <li><img src="index/ul-images/7.png" alt=""/></li>
+                    <li><img src="index/ul-images/8.png" alt=""/></li>
+                    <li><img src="index/ul-images/9.png" alt=""/></li>
+                    <li><img src="index/ul-images/10.png" alt=""/></li>
+                    <li><img src="index/ul-images/11.png" alt=""/></li>
+                    <li><img src="index/ul-images/家纺.png" alt=""/></li>
+                    <li><img src="index/ul-images/13.png" alt=""/></li>
+                    <li><img src="index/ul-images/14.png" alt=""/></li>
+                    <li><img src="index/ul-images/15.png" alt=""/></li>
+                    <li><img src="index/ul-images/16.png" alt=""/></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fr xiongmao">
+            <img src="index/ul-images/xiongmao.jpg" alt=""/>
+        </div>
+        <div class="lbt-zhfq">
+            <div class="lbtq bjj"><img src="index/ul-images/lbt1.jpg" alt=""/></div>
+            <div class="lbtw bjj"><img src="index/ul-images/lbt2.jpg" alt=""/></div>
+            <div class="lbte bjj"><img src="index/ul-images/lbt3.jpg" alt=""/></div>
+            <div class="lbtr bjj"><img src="index/ul-images/lbt4.jpg" alt=""/></div>
+            <div class="lbtt bjj"><img src="index/ul-images/lbt5.jpg" alt=""/></div>
+            <div class="lbty bjj"><img src="index/ul-images/lbt6.jpg" alt=""/></div>
+        </div>
+        <div class="circle">
+            <span style="background-color: white"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<!--大图片-->
+<!--<div class="center major-list-outer">-->
+    <!--<ul class="major-list">-->
+        <!--<li class="major-item" id="dx"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="rj"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="jx"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="gdz"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="jsj"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="kz"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="jg"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="sx"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="gl"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="ch"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="wl"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+        <!--<li class="major-item" id="xw"><a href="http://www.lanrentuku.com/" target="_blank"><span class="txt-hide front-face"></span><span class="back-face"></span></a></li>-->
+    <!--</ul>-->
+<!--</div>-->
+<!-- 代码 结束 -->
+<!--热门品牌-->
+<div class="w my-charac">
+    <span>特色市场 <b></b></span>
+    <img src="index/imgs/TB1UtBtLpXXXXbfXXXXZeZMQVXX-405-420.jpg" alt=""/>
+
+    <div>
+            <span>
+                <h3>天猫箱包</h3>
+                <h6>秋冬潮品</h6>
+                <h4>包您满意</h4>
+                <!--<img src="imgs/11.jpg" alt=""/>-->
+                <span class="my-charac-inco"><img src="index/imgs/11.jpg" alt=""/></span>
+                <img src="index/imgs/TB1za72LXXXXXbDXVXXPzB0OVXX-160-160.jpg" alt=""/>
+            </span>
+    </div>
+    <div>
+            <span>
+                <h3>免费试用</h3>
+                <h6>伊蒂之屋染眉膏</h6>
+                <h4>提供66份</h4>
+                <span class="my-charac-inco"><img src="index/imgs/22.jpg" alt=""/></span>
+                <img src="index/imgs/2.jpg" alt=""/>
+            </span>
+    </div>
+    <div>
+            <span>
+                <h3>酷玩街</h3>
+                <h6>新潮 好玩</h6>
+                <h4>卡通大白充电宝</h4>
+                <span class="my-charac-inco"><img src="index/imgs/33.jpg" alt=""/></span>
+                <img src="index/imgs/3.jpg" alt=""/>
+            </span>
+    </div>
+    <div>
+            <span>
+                <h3>天天搞机</h3>
+                <h6>大牌手机</h6>
+                <h4>新年送礼</h4>
+                <span class="my-charac-inco"><img src="index/imgs/44.jpg" alt=""/></span>
+                <img src="index/imgs/4.jpg" alt=""/>
+            </span>
+    </div>
+    <div>
+            <span>
+                <h3>喵鲜生</h3>
+                <h6>迪斯尼系列</h6>
+                <h4>进口礼盒预售</h4>
+                <span class="my-charac-inco"><img src="index/imgs/55.jpg" alt=""/></span>
+                <img src="index/imgs/5.jpg" alt=""/>
+            </span>
+    </div>
+    <div>
+            <span>
+                <h3>花呗分期</h3>
+                <h6>手机分期免息</h6>
+                <h4>6s 6期0息</h4>
+                <span class="my-charac-inco"><img src="index/imgs/66.jpg" alt=""/></span>
+                <img src="index/imgs/TB1z54NLXXXXXaiXpXXQAsJYXXX-180-180.jpg" alt=""/>
+            </span>
+    </div>
+</div>
+<div class="w my-charac ">
+        <span class="fr">热门品牌<b class="my-b fl"></b>
+            <ul class="fr">
+                <li class="my-charac-hot-one fl current">国际大牌</li>
+                <li class="my-charac-hot-one fl">时尚潮牌</li>
+                <li class="my-charac-hot-one fl">国内名牌</li>
+                <li class="my-charac-hot-one fl">天猫原创</li>
+            </ul>
+        </span>
+
+    <img src="index/imgs/TB1uP6GJVXXXXcoXXXXXXXXXXXX-398-422.jpg_q75.jpg" alt=""/>
+    <ul id="shop">
+        <li><img src="index/imgs/l1.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l18.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l3.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l4.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l5.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l6.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l7.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l19.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l9.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l10.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l11.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l12.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l18.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l17.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l21.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l22.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l23.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l4.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l15.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l26.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l27.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l18.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l19.jpg" alt=""/><i>♡</i></li>
+        <li><img src="index/imgs/l29.jpg" alt=""/><i>♡</i></li>
+    </ul>
+</div>
+<div class="w my-charac ">
+    <span>热门市场<b class="my-b my-mak"></b></span>
+    <img src="index/imgs/i1.jpg" alt=""/>
+    <img src="index/imgs/i2.jpg" alt=""/>
+    <img src="index/imgs/i3.jpg" alt=""/>
+    <img src="index/imgs/i4.jpg" alt=""/>
+</div>
+<div class="w my-coin-all">
+    <div class="w my-coin">
+        <img src="index/imgs/a1.jpg" alt=""/>
+        <h5>博洋家纺新年首映</h5>
+        <h6>新年送豪礼 钜惠享不停</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a2.jpg" alt=""/>
+        <h5>华硕G11新品发售</h5>
+        <h6>预约抢1000元红包</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a3.jpg" alt=""/>
+        <h5>热卖跑步鞋</h5>
+        <h6>打造卓越体验</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a4.jpg" alt=""/>
+        <h5>Tmall 超级i.t日</h5>
+        <h6>商场同款3折抢购</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a5.jpg" alt=""/>
+        <h5>家纺布艺年终大促</h5>
+        <h6>全场9.9起包邮</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a6.jpg" alt=""/>
+        <h5>好货分期又免息</h5>
+        <h6>6s 6期0息</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a7.jpg" alt=""/>
+        <h5>冬季新品</h5>
+        <h6>品牌优选</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a8.jpg" alt=""/>
+        <h5>中国原产地海宁皮衣</h5>
+        <h6>超值疯抢9.9元起</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a9.jpg" alt=""/>
+        <h5>全球羽绒盛宴</h5>
+        <h6>新春钜献羽绒被1元秒杀</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a10.jpg" alt=""/>
+        <h5>新品来袭</h5>
+        <h6>vivo X6Plus首发</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a11.jpg" alt=""/>
+        <h5>励志太子妃</h5>
+        <h6>练出好身材</h6>
+    </div>
+    <div class="w my-coin">
+        <img src="index/imgs/a12.jpg" alt=""/>
+        <h5>这么潮你知道吗</h5>
+        <h6>潮人必备新品</h6>
+    </div>
+</div>
+<div class="w my-index-img"><img src="index/imgs/img.jpg" alt=""/></div>
+
+<h2 class="w my-woederful"></h2>
+<ul class="w my-index-shop-all clearfix">
+    <li class="w my-index-shop">
+        <img src="index/imgs/b1.jpg" alt=""/>
+
+        <p>毛呢风衣2015秋冬装新款韩版青年羊毛呢外套中长款男士大衣男装潮</p>
+        <span>￥169</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b2.jpg" alt=""/>
+
+        <p>WOOG2005男士羽绒服 2015冬季韩版青年立领酒红色加厚外套男修身</p>
+        <span>￥180</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b3.jpg" alt=""/>
+
+        <p>WOOG2005男士棉衣外套2015冬季加厚蓝色青年潮棉袄修身翻领棉服男</p>
+        <span>￥160</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b4.jpg" alt=""/>
+
+        <p>泽度新款男士羽绒服韩版修身短款潮男羽绒男青年男款羽绒冬季外套</p>
+        <span>￥190.5</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b8.jpg" alt=""/>
+
+        <p><span style="color: red ;font-size: 15px">[热销]</span> 艺曼世嘉 心形床桃心床布艺大圆床软床布床婚床时尚公主床892#</p>
+        <span>￥490</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b10.jpg" alt=""/>
+
+        <p><span style="color: red ;font-size: 15px">[热销]</span> 真藤吊篮秋千吊椅宿舍阳台单人藤条摇篮鸟巢寝室悬挂吊椅室内吊椅</p>
+        <span>￥350</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b9.jpg" alt=""/>
+
+        <p>美固F16家用小冰箱 宿舍办公室迷你小冰箱 母乳 药品 化妆品冷藏</p>
+        <span>￥240</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b5.jpg" alt=""/>
+
+        <p><span style="color: red ;font-size: 15px">【清仓】</span> 加绒加厚毛内胆中年男装爸爸装冬装外套棉服中老年棉衣男</p>
+        <span>￥390</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b7.jpg" alt=""/>
+
+        <p><span style="color: red ;font-size: 15px">[热销]</span> 风暴太子车150摩托车复古车 上牌无忧</p>
+        <span>￥5000</span>
+    </li>
+    <li class="w my-index-shop">
+        <img src="index/imgs/b6.jpg" alt=""/>
+
+        <p>ALT阿恩蓝拓冬新款男士羽绒服潮男短款青年韩版休闲修身加厚外套</p>
+        <span>￥390</span>
+    </li>
+</ul>
+<div class="w my-index-shop-end"></div>
+<!--热门品牌-->
+
+
+<!--底部-->
+<div class="footer">
+    <div class="footer-service">
+        <div class="w footer-service-slogans">
+            <a href="#" class="slogan slogan1"><img src="index/ul-images/d-you1.png" alt=""/></a>
+            <a href="#" class="slogan slogan2"><img src="index/ul-images/d-qi1.png" alt=""/></a>
+            <a href="#" class="slogan slogan3"><img src="index/ul-images/d-te1..png" alt=""/></a>
+            <a href="#" class="slogan slogan4"><img src="index/ul-images/d-bang1.png" alt=""/></a>
+        </div>
+        <div class="w footer-service-shopping clearfix">
+            <dl>
+                <dt>购物指南</dt>
+                <dd>免费注册</dd>
+                <dd>开通支付宝</dd>
+                <dd>支付宝充值</dd>
+
+            </dl>
+            <dl>
+                <dt>天猫保障</dt>
+                <dd>发票保障</dd>
+                <dd>售后规则</dd>
+                <dd>缺货赔付</dd>
+            </dl>
+            <dl>
+                <dt>支付方式</dt>
+                <dd>快捷支付</dd>
+                <dd>信用卡</dd>
+                <dd>余额宝</dd>
+                <dd>蚂蚁花呗</dd>
+                <dd>货到付款</dd>
+            </dl>
+            <dl>
+                <dt>商家服务</dt>
+                <dd>商家入驻</dd>
+                <dd>商家中心</dd>
+                <dd>天猫智库</dd>
+                <dd>物流服务</dd>
+                <dd>喵言喵语</dd>
+                <dd>运营服务</dd>
+            </dl>
+            <dl>
+                <dt>手机天猫</dt>
+                <a href="#"><img src="index/ul-images/erweima.png" alt=""/></a>
+            </dl>
+
+
+        </div>
+        <div class="tm-xmt"><img src="index/ul-images/tm-tou.png" alt=""/></div>
+    </div>
+    <div class=" footer-others">
+
+        <div class="footer-others-links">
+            <a href="#">关于我们</a>
+            <a href="#">帮助中心</a>
+            <a href="#">开放平台</a>
+            <a href="#">诚聘英才</a>
+            <a href="#">联系我们</a>
+            <a href="#">网站合作</a>
+            <a href="#">法律声明</a>
+            <a href="#">廉正举报</a>
+            <a href="#">规则意见征集</a>
+
+        </div>
+        <div class="w footer-others-copyright">
+            <a href="#">阿里巴巴集团</a>|
+            <a href="#">淘宝</a>|
+            <a href="#">天猫</a>|
+            <a href="#">聚划算</a>|
+            <a href="#">全球速卖通</a>|
+            <a href="#">阿里巴巴国际交易市场</a>|
+            <a href="#">1688</a>|
+            <a href="#">阿里妈妈</a>|
+            <a href="#">阿里旅行▪去啊</a>|
+            <a href="#">阿里云计算</a>|
+            <a href="#">YunOS</a>|
+            <a href="#">阿里通讯</a>|
+            <a href="#">万网</a>|
+            <a href="#">高德</a>|
+            <a href="#">优视</a>|
+            <a href="#">友盟</a>|
+            <a href="#">虾米</a>|
+            <a href="#">天天动听</a>|
+            <a href="#">来往</a>|
+            <a href="#">钉钉</a>|
+            <a href="#">支付宝</a>
+
+            <p>增值电信业务经营许可证：<span><a href="#">浙B2-20110446</a></span>网络文化经营许可证：<span><a
+                    href="#">浙网文[2015]0295-065号</a></span>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号</br>
+                互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005
+                <br>© 2003-2016 TMALL.COM 版权所有</p>
+        </div>
+        <div class="footer-others-img">
+            <a href="#"><img src="index/ul-images/zjgs.png"/></a>
+            <a href="#"><img src="index/ul-images/whjy.png"/></a>
+        </div>
+    </div>
+</div>
+</div>
+<!--底部-->
+
+<!--固定导航-->
+
+<!--固定导航-->
+
 </body>
+
 </html>
+
